@@ -82,4 +82,7 @@ docker compose up --build airflow-init
 
 ## Proximos pasos
 
-completar aca
+* Agregar modelo a S3
+* Conectar con FastAPI
+* Mejorar modelo
+* Agregar pipelines para monitoreo y reentramiento de modelos
