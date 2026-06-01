@@ -69,6 +69,17 @@ Solucion:
 docker compose down -v --remove-orphans
 docker compose up --build airflow-init
 
+### Falla por permisos sobre artifacts/model.joblib (tincho)
+
+Se esta intentando acceder al model.joblib del local system. Deberiamos usar el S3.
+Solucion simple para este TP:
+
+bash
+mkdir -p artifacts
+chmod -R a+w artifacts
+docker compose down -v --remove-orphans
+docker compose up --build airflow-init
+
 ## Proximos pasos
 
 completar aca
