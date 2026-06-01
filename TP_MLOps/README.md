@@ -1,5 +1,5 @@
 # TP MLOps
-
+Autores: Tomás Frechou y Martín Amagliani
 ## Status Actual
 
 - Carga y validacion del CSV.
